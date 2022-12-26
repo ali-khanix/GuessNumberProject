@@ -1,0 +1,50 @@
+@media (max-width: 415px) {
+  header {
+    height: 30vh;
+  }
+
+  h1 {
+    font-size: 3rem !important;
+  }
+
+  .between {
+    font-size: 2.4rem !important;
+  }
+
+  .btn.again {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+
+  .number {
+    font-size: 5rem;
+    width: 10rem;
+    padding: 1rem 0rem;
+  }
+
+  .guess {
+    font-size: 5rem;
+    padding: 0.5rem;
+    width: 20rem;
+    margin-bottom: 2rem;
+  }
+
+  main {
+    height: 45vh;
+    justify-content: end;
+    flex-direction: column;
+  }
+
+  .message {
+    margin-bottom: 4rem;
+    height: 3rem;
+  }
+
+  .left {
+    margin-bottom: 2rem;
+  }
+
+  .right {
+    text-align: center;
+  }
+}
