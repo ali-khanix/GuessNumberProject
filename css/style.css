@@ -74,6 +74,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 400;
+  padding-bottom: 3rem;
 }
 
 .number {
@@ -178,9 +179,11 @@ h1 {
   }
   .left {
     margin-bottom: 2rem;
+    width: 100% !important;
   }
   .right {
     text-align: center;
+    width: 100% !important;
   }
 }
 
