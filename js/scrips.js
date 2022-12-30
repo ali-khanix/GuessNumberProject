@@ -52,7 +52,7 @@ btnAgain.addEventListener('click', () => {
   displayMessage('...شروع به حدس زدن کن');
   document.querySelector('.score').textContent = score;
   number.textContent = '?';
-  document.querySelector('.guess').value = Number('');
+  document.querySelector('.guess').value = null;
   document.body.classList.remove('body-background');
   document.body.style.backgroundColor = '';
 });
