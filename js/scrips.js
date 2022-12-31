@@ -19,6 +19,7 @@ let highScore = 0;
 // Check button
 btnCheck.addEventListener('click', () => {
   const guess = Number(document.querySelector('.guess').value);
+  document.querySelector('.guess').value = null;
 
   if (!guess) {
     displayMessage('لطفا یک عدد وارد کنید');
